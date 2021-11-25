@@ -24,7 +24,7 @@ public class NumberCounter {
 
 
 
-        System.out.println("Number occurrences: " + numberOccurrences);
+        System.out.println("Number occurrences: " + result1);
     }
 
     public static int countNumberOccurrences(int number, int[] numbers) {
