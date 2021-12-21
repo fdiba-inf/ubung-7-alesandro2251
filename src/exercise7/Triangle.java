@@ -20,7 +20,7 @@ public class Triangle {
     public static void printLine(int start, int end) {
       do {
         if (start < end) {
-          System.out.print(start + "  ");
+          System.out.print(start + " ");
 
         } else {
           System.out.println(start);
