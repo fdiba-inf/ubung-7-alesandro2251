@@ -6,18 +6,18 @@ public class TimeValidation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter hours: ");
+        System.out.print("Enter hours : ");
         int hours = input.nextInt();
 
-        System.out.print("Enter minutes: ");
+        System.out.print("Enter minutes : ");
         int minutes = input.nextInt();
 
         boolean timeValid = true;
         boolean timeNotValid = false; 
         if(hours >= 0 && hours <= 24 && minutes >=0 && minutes <=59) {
-            System.out.println("Time valid: " + timeValid);
+            System.out.println("Time valid : " + timeValid);
        }else{
-                System.out.println("Time valid: " + timeNotValid );
+                System.out.println("Time valid : " + timeNotValid );
             }
         }
 
